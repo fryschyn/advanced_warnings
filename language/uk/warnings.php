@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'BAN'					=> 'Бан',
-	'BANNED_UNTIL'			=> 'до: %s',
+	'BANNED_UNTIL'			=> 'до %s',
 	'BANNED'				=> 'Заблокувати',
 	'BANNED_PERMANENTLY'	=> 'Безстроково',
 	'BANNED_BY_X_WARNINGS'	=> array(
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	),
 	'WARNING'				=> 'Попередження',
 	'WARNING_TYPE'			=> 'Вид',
-	'WARNINGS'				=> 'попередження',
+	'WARNINGS'				=> 'Попередження',
 	'WARNING_BAN'			=> array(
 		1 => 'Заблокований за %d попередження. Причина останнього попередження: %s',
 		2 => 'Заблокований за %d попередження. Причина останнього попередження: %s',
@@ -69,10 +69,10 @@ $lang = array_merge($lang, array(
 	'WARNING_POST'			=> 'Перейти до повідомлення',
 	'WARNING_TIME'			=> 'Видано',
 
-	'LENGTH_WARNING_INVALID'		=> 'Дата повинна бути задана у вигляді<kbd>РРРР-ММ-ДД</kbd>.',
+	'LENGTH_WARNING_INVALID'		=> 'Дата повинна бути задана у форматі <kbd>РРРР-ММ-ДД</kbd>.',
 	'USER_WARNING_EDITED'			=> 'Попередження успішно змінене.',
 	'WARNINGS_FOR_BAN'				=> 'Попереджень для бана',
-	'WARNINGS_FOR_BAN_EXPLAIN'		=> 'Максимальне число незнятих попереджень, при досягненні якого користувач буде забанений автоматично.',
+	'WARNINGS_FOR_BAN_EXPLAIN'		=> 'Максимальне число незнятих попереджень, при досягненні якого користувач буде заблокований автоматично.',
 	'WARNINGS_GC'					=> 'Період обробки попереджень',
 	'WARNINGS_GC_EXPLAIN'			=> 'Період (у секундах) для автоматичного зняття минулих попереджень.',
 ));
